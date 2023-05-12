@@ -10,4 +10,5 @@ new_Actor -- (Confirmar)
 
 (Pagar) <|-- (Pagar con tarjeta)
 (Pagar) <|-- (Pagar con transferencia)
+
 @enduml
