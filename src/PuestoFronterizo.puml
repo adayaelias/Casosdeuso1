@@ -1,0 +1,10 @@
+@startuml
+actor Ciudadano
+actor Ciudadano_Extranjero
+Ciudadano <|-- Ciudadano_Extranjero
+
+Ciudadano -- (Registrar entrada)
+Ciudadano_Extranjero -- (Tomar huellas)
+
+(Registrar entrada) <.. (Tomar huellas) : <<extend>>
+@enduml
